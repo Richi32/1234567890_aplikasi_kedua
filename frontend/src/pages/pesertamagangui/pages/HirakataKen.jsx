@@ -9,7 +9,7 @@ const HirakataKen = () => {
     },[]);
 
     const getHirakata = async() => {
-        const response = await axios.get('http://localhost:5000/gethirakata');
+        const response = await axios.get('http://localhost:49156/gethirakata');
         setHirakata(response.data)
     }
 

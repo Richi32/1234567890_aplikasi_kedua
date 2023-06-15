@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 const db = new Sequelize('yukimaga_db','userku','passku',{
-    host: "49157-mariadb",
+    host: "db-49157",
     port: 3306,    
     dialect: "mysql"
 });
